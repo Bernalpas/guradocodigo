@@ -16,19 +16,19 @@ public class Main {
 
         switch (mes){
             case "Enero":
-                System.out.println("Estamos en en la estación de Verano");
+                System.out.println("Estamos en en la estaciï¿½n de Verano");
                 break;
             case "Abril":
-                System.out.println("Estamos en en la estación de Otoño");
+                System.out.println("Estamos en en la estaciï¿½n de Otoï¿½o");
                 break;
                 case "Julio":
-                    System.out.println("Estamos en en la estación de Invierno");
+                    System.out.println("Estamos en en la estaciï¿½n de Invierno");
                     break;
             case "Septiembre":
-                System.out.println("Estamos en en la estación de Primavera");
+                System.out.println("Estamos en en la estaciï¿½n de Primavera");
                 break;
             default:
-                System.out.println("No es una estación del año");
+                System.out.println("No es una estaciï¿½n del aï¿½o");
 
         }
 
@@ -36,7 +36,7 @@ public class Main {
         System.out.println("===============================================================");
 
         int edad;
-        System.out.println("Introduce tu edad en foma numérica: ");
+        System.out.println("Introduce tu edad en foma numï¿½rica: ");
         edad = datos.nextInt();
 
         switch (edad){
@@ -44,13 +44,13 @@ public class Main {
                 System.out.println("Puedes ingrasar con un adulto");
                 break;
             case 18:
-                System.out.println("Puedes ingresar sin acompañante");
+                System.out.println("Puedes ingresar sin acompaï¿½ante");
                 break;
             case 19:
-                System.out.println("Puedes ingresar sin acompañante");
+                System.out.println("Puedes ingresar sin acompaï¿½ante");
                 break;
             case 20:
-                System.out.println("Puedes ingresar sin acompañante");
+                System.out.println("Puedes ingresar sin acompaï¿½ante");
                 break;
             default:
                 System.out.println("No corresponde a un dato de tipo edad");
@@ -68,7 +68,7 @@ public class Main {
 
         System.out.println("===============================================================");
         for(String arrayPaises : paises){
-            System.out.println("los países agregados son: " + arrayPaises);
+            System.out.println("los paï¿½ses agregados son: " + arrayPaises);
         }
         System.out.println("===============================================================");
 
@@ -94,8 +94,21 @@ public class Main {
         System.out.println("===============================================================");
         System.out.println("===============================================================");
 
+        for(String arrayPaises : paises){
+            System.out.println(arrayPaises);
+            if(arrayPaises.equals("Argentina")){
+                System.out.println("Somos campeones de mundo");
+                continue;
+            }
+        }
 
-
+        for(String arrayPaises : paises){
+            System.out.println(arrayPaises);
+            if(arrayPaises.equals("Argentina")){
+                System.out.println("Somos campeones de mundo");
+                continue;
+            }
+        }
 
 
     }
